@@ -5,7 +5,6 @@ void weird(int n);
 
 int main(void){
     int N;
-	cout << "Numeros: ";
 	cin >> N;
 
     weird(N);
