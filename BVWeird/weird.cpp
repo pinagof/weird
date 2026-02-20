@@ -4,7 +4,7 @@ using namespace std;
 void weird(long long n);
 
 int main(void){
-    long long N;
+  long long N;
 	cin >> N;
 
     weird(N);
