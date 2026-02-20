@@ -1,16 +1,16 @@
 #include <iostream>
 using namespace std;
 
-void weird(int n);
+void weird(long long n);
 
 int main(void){
-    int N;
+  long long N;
 	cin >> N;
 
     weird(N);
 }
 
-void weird(int n){
+void weird(long long n){
     cout << n << " ";
 
     if (n==1){
